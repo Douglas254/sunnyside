@@ -1,8 +1,9 @@
+import Hero from "../components/Hero/Hero"
 
 function Home() {
   return (
     <div>
-      Welcome to Sunny side
+      <Hero />
     </div>
   )
 }
