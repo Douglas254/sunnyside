@@ -1,7 +1,12 @@
+
+
 $info: #3EBFFF;
+$primary: red;
+$light: #fff;
 
 $theme-colors: (
     info: $info
-)
+);
 
 // Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss'

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Heebo:wght@400;500;600&family=Nunito:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
 :root {
     --info: #3DBFFF;
     --light: #f1f8ff;
@@ -5,9 +7,10 @@
 }
 
 
+
 /*** Button ***/
 .btn {
-    font-family: "Nunito", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     transition: 0.5s;
