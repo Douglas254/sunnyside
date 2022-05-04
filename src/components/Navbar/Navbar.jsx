@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import  Logo  from '../../assets/logo.svg'
 
 function Navbar() {
@@ -21,8 +21,19 @@ function Navbar() {
                 type='button'
                 data-bs-toggle='collapse'
                 data-bs-target='#navbarCollapse'>
-                    
+                    <FontAwesomeIcon icon={ faBars} />
                 </button>
+
+                {/* nav content */}
+                <div className="collapse navbar-collapse"
+                id="navbarCollapse">
+                    <div className="navbar-nav ms-auto py-0 px-3 text-start">
+                        <NavLink to='/about' className="nav-item nav-link link-underline
+                        link-underline-warning">
+                            About
+                        </NavLink>
+                    </div>
+                </div>
             </nav>
         </div>
     </div>
