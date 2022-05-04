@@ -45,7 +45,7 @@
 }
 
 /*** Navbar ***/
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
@@ -90,14 +90,6 @@
 }
 
 
-
-@media (min-width: 768px) {
-    .hero-header {
-        background: url('./assets/mobile/image-header.jpg')
-    }
-}
-
-
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
@@ -131,6 +123,6 @@
 
     .sticky-top.navbar-dark {
         position: fixed;
-        
+
     }
 }
