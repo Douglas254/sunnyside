@@ -139,6 +139,7 @@
 }
 
 .footer__bg h1 {
+  padding-top: 50px;
   color: #073128c8;
   font-family: "Barlow", sans-serif;
 }
@@ -152,4 +153,29 @@
 
 .social img {
   margin: 40px 13px;
+}
+
+/* Products section */
+.productsImage {
+  display: flex;
+}
+
+.productsImage img {
+  width: 25%;
+  height: auto;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .productsImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .productsImage img {
+    width: 100%;
+    height: 100%;
+  }
 }
